@@ -1,6 +1,5 @@
 #Uses python3
 
-
 def lcs2(a,b,lookup):
     #write your code here
 
@@ -21,9 +20,7 @@ def lcs2(a,b,lookup):
 
 if __name__ == '__main__':
 
-    n = int(input())
     a = list(map(int,input().split()))
-    m = int(input())
     b = list(map(int,input().split()))
 
     lookup = dict()
